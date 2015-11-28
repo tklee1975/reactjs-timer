@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SimpleTimer</title>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+
+  </head>
+  <body>
+    <h2>SimpleTimer</h2>
+
+    <!-- Display -->
+    <div id="head" style="width:300px;height:90px">
+    <div id="counter">23:00</div>
+    </div>
+
+    <!-- Input Box -->
+    <div class="timerInput" id="timerInput">
+      <form id="timerForm">
+      <input type="tel" autocomplete="off" min="0" size="1" value="" placeholder="h"/>
+      <input type="tel" autocomplete="off" min="0" size="1" value="" placeholder="m"/>
+      <input type="tel" autocomplete="off" min="0" size="1" value="" placeholder="s"/>
+      <br/>
+      <button form="timerForm" id="timerButton">Start</button>
+      </form>
+    </div>
+
+
+
+	<script type="text/babel" src="main.js"></script>
+
+  </body>
+</html>

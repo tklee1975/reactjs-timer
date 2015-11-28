@@ -1,0 +1,112 @@
+.TimerComponent{
+  background: #eee;
+  width:300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.TimerDisplay {
+  text-align: center;
+  font-size: 50px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.TimerInput {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.TimerInput input {
+    width: 50px;
+    font-size: 20px;
+    padding: 5px;
+    border: 3;
+    text-align: center;
+}
+
+.TimerButton {
+  position: relative;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+////////////
+
+
+.CounterBox {
+  font-size: 30px;
+  font-family: arial;
+  text-align: center;
+  padding: 10px;
+}
+
+.SpanA {
+  background: #ffa;
+  font-weight: bold;
+  font-family: arial;
+}
+
+#inputs td {
+  width: 300px
+}
+
+input {
+    cursor: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    user-select: text
+}
+
+@font-face {
+    font-family: arial;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+
+
+#timerButton {
+    margin-top: 10px;
+
+}
+
+#timerButton:after {
+}
+
+
+#counter {
+  width: 300px;
+  padding-top: 8px;
+  font-size: 40px;
+  text-align: center
+}
+
+button {
+    font-size: 20px;
+    text-transform: uppercase
+}
+
+#head>div:first-child>*,
+#head>div:first-child:after {
+    vertical-align: middle;
+    display: inline-block
+}
+#head>div:first-child:after {
+    content: "";
+    width: 0
+}
+
+
+* {
+    font-family: Lato, sans-serif
+}
